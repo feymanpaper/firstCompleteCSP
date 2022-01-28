@@ -29,8 +29,8 @@ public class IOHandler {
                     for (int val2 = 0; val2 < n; val2++) {
                         if(checkPos(var1,var2,val1,val2)){
                             System.out.println("(" + val1+", "+val2 + ")") ;
+                            arr.add(new Tuple(val1,val2));
                         }
-                        arr.add(new Tuple(val1,val2));
                     }
                 }
                 System.out.println() ;
